@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js基础4</title>
+</head>
+
+<body>
+    <script>
+        // for 循环 语法
+        for (初始化语句; 判断语句; 自增语句) {
+            循环体
+        };
+        var sum = 0;
+        for (var i = 1; i <= 100; i++) {
+            sum += i;
+        };
+        //求1-100之间所有数的和、平均值
+        // var sum = 0;
+        // for (var i = 1; i <= 100; i++) {
+        //   sum += i;
+        // }
+        // console.log(sum);
+        // console.log(sum/100);
+
+        //计算1-100之间能3整除的数的和
+        // var sum = 0;
+        // for(var i = 1; i <= 100; i++) {
+        //   if (i % 3 === 0) {
+        //     sum += i;
+        //   }
+        // }
+        // console.log(sum);
+
+        //计算100-1之间不能被7整除的数的和  // 4315
+        // var sum = 0;
+        // for(var i = 100; i >= 1; i--) {
+        //   if (i % 7 !== 0) {
+        //     sum += i;
+        //   }
+        // }
+        // console.log(sum);
+
+        // 打印1行心
+        // for(var i = 1; i <= 9; i++) {
+        //   document.write('❤');
+        // }
+        // document.write('<br>');
+
+        // for(var i = 1; i <= 9; i++) {
+        //   for(var j = 1; j <= 9; j++) {
+        //     document.write('❤');
+        //   }
+        //   document.write('<br>');
+        // }
+
+        // 打印多少行
+        // for(var i = 1; i <= 9; i++) {
+        //   // 打印每一行 9个
+        //   for(var j = 1; j <= 9; j++) {
+        //     document.write('❤');
+        //   }
+        //   document.write('<br>');
+        // }
+
+        // 打印直角三角形
+        // for(var i = 1; i <= 9; i++) {
+        //   // 打印每一行 9个
+        //   for(var j = 1; j <= 10 - i; j++) {
+        //     document.write('❤');
+        //   }
+        //   document.write('<br>');
+        // }
+        // for(var i = 1; i <= 9; i++) {
+        //   // 打印每一行 9个
+        //   for(var j = 1; j <= i; j++) {
+        //     document.write('<span>' + j + '*' + i + '=' + i*j + '</span>');
+        //   }
+        //   document.write('<br>');
+        // }
+    </script>
+</body>
+
+</html>
